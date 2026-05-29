@@ -4,32 +4,6 @@ Project Overview
 This project focuses on detecting and classifying crime types using Machine Learning techniques. The system analyzes crime-related data and predicts the type of crime using a trained classification model. It is designed as a Final Year Engineering Project with practical applications in crime analysis and decision support systems.
 The project includes data preprocessing, model training, and prediction using pre-trained ML models stored as `.pkl` files.
 
-Project Directory Structure
-
-bash
-crime-type-classification-ml/
-│
-├── adminapp/                      Admin-related application logic
-├── userapp/                       User-related application logic
-├── assets/                        Static assets (CSS, JS, images)
-├── media/                         Uploaded or processed media files
-│
-├── crimeproject/                  Main Django project folder
-│
-├── crime detection images/        Dataset images related to crime detection
-├── crime_type/                    Raw crime dataset
-├── crime_type_clean/              Cleaned & preprocessed dataset
-│
-├── classification-with-ml-predict-crime-type/
-│   ├── Dt_crime.pkl               Trained Decision Tree model
-│   ├── Dt_crime1.pkl              Updated / alternative trained model
-│   ├── crimeproject.sql           Database dump
-│
-├── myvenv/                        Virtual environment (optional)
-│
-├── manage.py                      Django management script
-├── requirements.txt               Project dependencies
-└── README.md                      Project documentation
 
 Technologies Used
  Programming Language: Python
